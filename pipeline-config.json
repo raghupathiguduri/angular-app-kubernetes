@@ -1,6 +1,9 @@
 {
    "appName":"test",
    "version":"1.0",
+   "registry": "registry-demo.kaiburr.com",
+   "repo": "registry-demo.kaiburr.com/sample",
+   "imageName": "Angularjs"
    "versionMgmt":{
       "useCZ":false,
       "fromPackage":true,
