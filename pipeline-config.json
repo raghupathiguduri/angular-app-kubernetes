@@ -1,0 +1,23 @@
+{
+   "appName":"test",
+   "version":"1.0",
+   "versionMgmt":{
+      "useCZ":false,
+      "fromPackage":true,
+      "bumpVersion":false
+   },
+   "appBuild":{
+      "framework":"angular",
+      "devBuild":"",
+      "prodBuild":"",
+      "runTests":false,
+      "pushBinary":false,
+      "binaryRepository":""
+   },
+   "deployment":{
+      "useHelm":false,
+      "helmChartPath":"",
+      "gitOps":false,
+      "gitOpsHost":""
+   }
+}
