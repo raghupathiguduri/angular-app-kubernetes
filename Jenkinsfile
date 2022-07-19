@@ -17,11 +17,6 @@ pipeline {
                 AppBuild()
             }
         }
-        stage('Create Prod Build') {
-            steps {
-                NPMBuild("prod")
-            }
-        }
         stage('Docker Build') {
             steps {
                 DockerBuild()
